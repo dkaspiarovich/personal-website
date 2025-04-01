@@ -1,0 +1,115 @@
+.contact {
+  margin: 10rem 3rem;
+  opacity: 0;
+}
+
+.contact-content {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.contact .container {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  max-width: 800px;
+  margin-bottom: 5rem;
+}
+
+.contact-title {
+  font-size: 25px;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.contact-first {
+  display: flex;
+  width: 100%;
+}
+
+.location,
+.phone,
+.email {
+  flex-grow: 1; /* Каждый элемент растягивается */
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  width: 30%;
+  padding-left: 1rem;
+  border-left: 0.1px solid #d3d3d3;
+}
+
+.linkedin,
+.github {
+  flex-grow: 1; /* Каждый элемент растягивается */
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 940px) {
+  .contact-content {
+    flex-direction: column; /* Переключаем на вертикальное расположение */
+    align-items: center;
+  }
+
+  .social {
+    flex-direction: row; /* Иконки будут располагаться в строку */
+    justify-content: center; /* Центрируем иконки */
+    border-left: none; /* Убираем бордер слева */
+    margin-top: 2rem;
+    padding: 0 150px;
+    width: 80%;
+    border-top: 0.1px solid #d3d3d3;
+  }
+
+  .linkedin,
+  .github {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .location,
+  .phone,
+  .email {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .contact-first {
+    flex-direction: column;
+  }
+
+  .location,
+  .email {
+    margin-top: 1rem;
+  }
+
+  .contact-content {
+    margin-top: 3rem;
+  }
+
+  .github {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 734px) {
+  .contact-title {
+    font-size: 22px;
+  }
+
+  .location,
+  .phone,
+  .email {
+    font-size: 14px;
+  }
+}

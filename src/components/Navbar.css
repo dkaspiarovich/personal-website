@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  height: 90px;
+  z-index: 1;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar {
+  background-color: transparent; /* Изначально без фона */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Плавный переход для фона и смещения */
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при прокрутке */
+  /* Немного поднимем navbar вверх при прокрутке */
+}
+
+.navbar.scrolled .navbar-link {
+  transition: margin 0.3s ease;
+  margin: 0.5rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  height: 100%;
+}
+
+.header .container .logo {
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.header .navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-button {
+  color: white;
+  transition: all 0.5s;
+}
+
+.header .navbar-link {
+  padding: 0 2rem;
+  font-weight: lighter;
+}
+
+.hamburger {
+  display: none;
+}
+
+.navbar-menu.active {
+  left: 0;
+}
+
+.navbar-link {
+  margin: 1.5rem 0;
+}
+
+.nav-button {
+  font-size: 15px;
+}
+
+.resume {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.resume:hover {
+  background-color: rgba(248, 248, 248, 0.1);
+}
+
+@media screen and (max-width: 1282px) {
+  .header .navbar-link {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    padding-top: 2rem;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .header .container {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при прокрутке */
+    /* Немного поднимем navbar вверх при прокрутке */
+  }
+
+  .navbar-menu {
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    transition: 0.3s;
+  }
+}
