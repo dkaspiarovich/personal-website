@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "../styles/Main.css";
 import gsap from "gsap";
 import arrow from "../images/arrow-down.svg";

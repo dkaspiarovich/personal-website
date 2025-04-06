@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import "../styles/Contact.css";
-import location from "../images/location.svg";
-import phone from "../images/phone.svg";
-import email from "../images/email.svg";
 import linkedin from "../images/linkedin.svg";
 import github from "../images/github.svg";
 import gsap from "gsap";
@@ -61,7 +58,11 @@ const Contact = () => {
                 </a>
               </div>
               <div className="github">
-                <a href="https://github.com/dkaspiarovich" target="_blank">
+                <a
+                  href="https://github.com/dkaspiarovich"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={github}
                     className="github"
