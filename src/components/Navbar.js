@@ -88,7 +88,7 @@ const Navbar = () => {
             </li>
 
             <li className="navbar-link">
-              <a href={cv} target="_blank" onClick={closeMenu}>
+              <a href={cv} target="_blank" rel="noreferrer" onClick={closeMenu}>
                 <button className="nav-button resume">Resume</button>
               </a>
             </li>

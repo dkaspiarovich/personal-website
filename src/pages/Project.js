@@ -62,7 +62,11 @@ const Project = () => {
             </div>
           </div>
           <button className="button">
-            <a href="https://github.com/dkaspiarovich/bank-app" target="_blank">
+            <a
+              href="https://github.com/dkaspiarovich/bank-app"
+              target="_blank"
+              rel="noreferrer"
+            >
               Link to github
             </a>
           </button>
@@ -85,6 +89,7 @@ const Project = () => {
             <a
               href="https://github.com/dkaspiarovich/pig-dice-game"
               target="_blank"
+              rel="noreferrer"
             >
               Link to github
             </a>
@@ -106,6 +111,7 @@ const Project = () => {
             <a
               href="https://github.com/dkaspiarovich/dark-mode-timer"
               target="_blank"
+              rel="noreferrer"
             >
               Link to github
             </a>

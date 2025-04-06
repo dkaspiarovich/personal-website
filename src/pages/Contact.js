@@ -50,13 +50,24 @@ const Contact = () => {
                 <a
                   href="https://www.linkedin.com/in/darya-kaspiarovich-2777382a0/"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  <img src={linkedin} className="linkedin" width={20}></img>
+                  <img
+                    src={linkedin}
+                    className="linkedin"
+                    width={20}
+                    alt="linkedin"
+                  ></img>
                 </a>
               </div>
               <div className="github">
                 <a href="https://github.com/dkaspiarovich" target="_blank">
-                  <img src={github} className="github" width={20}></img>
+                  <img
+                    src={github}
+                    className="github"
+                    width={20}
+                    alt="github"
+                  ></img>
                 </a>
               </div>
             </div>
