@@ -1,7 +1,7 @@
 {
   "name": "personal-webpage",
   "version": "0.1.0",
-  "homepage": "https://github.com/dkaspiarovich/personal-website",
+  "homepage": "https://dkaspiarovich.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
