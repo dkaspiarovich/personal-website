@@ -50,9 +50,9 @@ const Main = () => {
           <div className="about-about">
             <p>I'm</p>
             <p>
-              Web-developer <strong>Darya Kaspiarovich</strong>
+              Full Stack Developer <strong>Darya Kaspiarovich</strong>
             </p>
-            <p>A final year student of computer sience</p>
+            <p>Computer Science Graduate</p>
           </div>
           <div className="about-button">
             <div className="arrow">

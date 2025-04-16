@@ -99,17 +99,20 @@ const About = () => {
               <h2>Skills</h2>
               <p>
                 <strong>Frontend:</strong> HTML, CSS, SASS, JavaScript,
-                TypeScript, jQuery, React, Vue.js
+                TypeScript, React, Vue.js
               </p>
               <br />
               <p>
-                <strong>Backend:</strong> Node.js, REST API, PHP, Java, Python,
-                Databases: MySQL, MongoDB
+                <strong>Backend:</strong> Python, Java, Node.js, REST API, PHP
               </p>
               <br />
               <p>
-                <strong>Tools and platforms:</strong> Git, GitHub, Power BI,
-                npm, Docker, Linux, PowerShell, Figma, Postman
+                <strong>Databases:</strong> MySQL, MongoDB
+              </p>
+              <br />
+              <p>
+                <strong>Tools and platforms:</strong> Git, GitHub, npm, Docker,
+                Linux, PowerShell, Figma, Postman
               </p>
             </div>
           </div>
