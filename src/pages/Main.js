@@ -23,6 +23,7 @@ const Main = () => {
     gsap.from(".blurred-spot-1", {
       width: "1000px",
       height: "1000px",
+      opacity: 1,
       ease: "power1",
       duration: 0.5,
     });
@@ -30,6 +31,7 @@ const Main = () => {
     gsap.from(".blurred-spot-2", {
       width: "400px",
       height: "400px",
+      opacity: 1,
       ease: "power1",
       duration: 0.5,
     });
@@ -49,10 +51,10 @@ const Main = () => {
         <div className="content">
           <div className="about-about">
             <p>I'm</p>
+            <p>Frontend Developer</p>
             <p>
-              Full Stack Developer <strong>Darya Kaspiarovich</strong>
+              <strong>Darya Kaspiarovich</strong>
             </p>
-            <p>Computer Science Graduate</p>
           </div>
           <div className="about-button">
             <div className="arrow">

@@ -123,7 +123,7 @@ const About = () => {
             }`}
           >
             <div className="text">
-              <h2>Courses</h2>
+              <h2>Certificates</h2>
               Udemy | The Complete JavaScript Course <br />
               <br /> <br />
               Cisco | CCNAv7: Wprowadzenie do sieci <br />
@@ -148,7 +148,7 @@ const About = () => {
           Skills
         </button>
         <button className="button" onClick={() => handleButtonClick("courses")}>
-          Courses
+          Certificates
         </button>
       </div>
     </div>
