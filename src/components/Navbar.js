@@ -15,15 +15,14 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setScrolled(true); // Если прокручено больше 50px, добавляем класс
+        setScrolled(true);
       } else {
-        setScrolled(false); // Если не прокручено, убираем класс
+        setScrolled(false);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
 
-    // Убираем слушатель при размонтировании компонента
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 

@@ -17,7 +17,7 @@ body {
 }
 
 #project-section {
-  overflow-x: hidden; /* Это предотвращает горизонтальную прокрутку на самом секции */
+  overflow-x: hidden;
 }
 
 code {
@@ -43,8 +43,8 @@ a {
 }
 
 img {
-  position: relative; /* По умолчанию все изображения имеют относительную позицию */
-  z-index: 0; /* Все изображения имеют низкий z-index */
+  position: relative;
+  z-index: 0;
 }
 
 button {

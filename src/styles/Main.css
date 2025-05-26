@@ -67,12 +67,12 @@
   width: 1px;
   height: 1px;
   background: #6359ee33;
-  border-radius: 50%; /* Округлое пятно */
+  border-radius: 50%;
   filter: blur(80px);
   top: 100%;
   left: 50%;
   transform: translate(-50%, -30%);
-  pointer-events: none; /* Чтобы пятно не перекрывало другие элементы */
+  pointer-events: none;
   transition: all 0.5s ease;
   overflow: hidden;
 }

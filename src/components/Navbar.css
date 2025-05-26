@@ -11,13 +11,12 @@
 }
 
 .navbar {
-  background-color: transparent; /* Изначально без фона */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Плавный переход для фона и смещения */
+  background-color: transparent;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .navbar.scrolled {
-  background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при прокрутке */
-  /* Немного поднимем navbar вверх при прокрутке */
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar.scrolled .navbar-link {
@@ -110,8 +109,7 @@
   }
 
   .navbar.scrolled {
-    background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при прокрутке */
-    /* Немного поднимем navbar вверх при прокрутке */
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .navbar-menu {

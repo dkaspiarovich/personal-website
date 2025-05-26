@@ -5,10 +5,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 const About = () => {
-  const [activeContent, setActiveContent] = useState("profile"); // Стейт для активного контента
+  const [activeContent, setActiveContent] = useState("profile");
 
   const handleButtonClick = (content) => {
-    setActiveContent(content); // Изменение активного контента
+    setActiveContent(content);
   };
 
   useEffect(() => {
@@ -62,16 +62,21 @@ const About = () => {
             <div className="text">
               <h2>Profile</h2>
               <p>
-                I am a Computer Science graduate. I have the ability to quickly
-                learn new tools and approaches. I am seeking opportunities for
-                professional growth and am eager to work on interesting
-                challenges within dynamic and innovative teams. I’m always open
-                to new opportunities and am willing to relocate to any country
-                or city.
+                I’m a passionate <strong>Frontend Developer</strong> with a
+                background in Computer Science, creating modern, user-friendly,
+                and responsive web applications. I enjoy turning ideas into
+                functional, visually appealing interfaces. <br />
+                I’ve worked on several{" "}
+                <strong>frontend development projects</strong>, where I applied
+                my skills in <strong>JavaScript, React, and UI design</strong>.
+                These projects involved{" "}
+                <strong>collaborating with teams</strong> to implement features,{" "}
+                <strong>debug issues</strong>, and{" "}
+                <strong>ensure clean, maintainable code</strong>. During my{" "}
+                <strong>frontend internship</strong>, I gained practical
+                experience working with modern tools and frameworks, enhancing
+                both my technical and teamwork abilities.
               </p>
-            </div>
-            <div className="profile-image">
-              <img src={image} width={250} alt="Profile" />
             </div>
           </div>
 
